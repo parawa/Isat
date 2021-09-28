@@ -1,0 +1,214 @@
+.Background{
+  top: 0px;
+left: 0px;
+width: 2000px;
+height: 1500px;
+opacity: 1;
+background: #e8e8ec 0% 0% no-repeat padding-box;
+
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
+.h1{
+margin: auto;
+top: 60px;
+left: 700px;
+width: 2000px;
+height: 100px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #2A2866 0% 0% no-repeat padding-box;
+border-radius: 0px;
+opacity: 1;
+/* text-indent: 70px;
+text-align: justify;
+letter-spacing: 3px; */
+ }
+
+
+.h2{
+margin: 200px;
+top: 200px;
+left: 500px;
+width: 1330px;
+height: 800px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-f0eff4);
+background: #ffffff 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 10px;
+opacity: 1;
+
+text-indent: 7px;
+text-align: justify;
+letter-spacing: 2px;
+}
+
+.h5{
+  float: right;
+  margin:  20px;
+  top: 10px;
+  left: 500px;
+  width: 250px;
+  height: 60px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #919196 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+}
+.h6{
+  
+  float: right;
+  margin:  auto;
+  top: 10px;
+  left: 500px;
+  width: 200px;
+  height: 60px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #fafafc 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+ 
+}
+
+.h7{
+  float: left;
+  margin:  200px;
+  top: 50px;
+  left: 500px;
+  width: 1310px;
+  height: 70px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+ }
+
+
+.box1{
+top: 0px;
+left: 0px;
+width: 136px;
+height: 1080px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 0px 20px 20px 0px;
+opacity: 1;
+
+}
+
+
+
+.dropbtn {
+  float: left;
+  /* margin:  20px; */
+  border-radius: 10px;
+  background-color: #2A2866 ;
+   color: rgb(255, 255, 255); 
+  padding: 20px;
+  font-size: 16px;
+  border: lavenderblush;
+  cursor: pointer;
+}
+.dropbtn1 {
+  float: left;
+  /* margin:  ;  */
+  border-radius: 10px;
+  background-color: #f4f8f4;
+  /* color: rgb(10, 10, 10); */
+  padding: 20px;
+  font-size: 10px;
+  border: lavenderblush;
+  cursor: pointer;
+}
+
+.dropdown {
+  /* float: left; */
+  margin:  10px;
+  position: relative; 
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(248, 246, 246, 0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  /* color: black; */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #afa9a9}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #aeb1ae;
+}
+ul {
+  border-radius: 10px;
+ 
+  list-style-type: none;
+  margin: 0px;
+  padding: 28px;  
+  width: 80px;
+  cursor: pointer;
+  /* background-color: #ffffff; */
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  float: left;
+  width: 50px;
+  border-radius: 6px;
+  background-color: #555;
+  color: white;
+}
+
+/* .img{
+top: 10px;
+left: 300px;
+width: 503px;
+height: 53px;
+border: 2px solid var(--unnamed-color-ffffff);
+background: transparent url('../jimin.jpg') 0% 0% no-repeat padding-box;
+border-radius: 200px solid #FFFFFF;
+opacity: 1;
+} */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button2 {background-color: #2A2866;} /* Blue */

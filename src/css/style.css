@@ -1,0 +1,86 @@
+.Background{
+ /* background-image: url("C:/Users/user/Desktop/YIM/22/9/my-app/src/img");  */
+margin: auto;
+top: 0px;
+left: 0px;
+width: 100%;
+height:100%;
+opacity: 1;
+background: #ffffff 0% 0% no-repeat padding-box;
+
+/* background: #e2e2e2 0% 0% no-repeat padding-box; */
+}
+/* .body {
+  background-image: url("login .png");
+} */
+
+
+.makecenter {
+   
+    margin: auto;
+    top: 85px;
+    /* left: 526px; */
+    width: 400px;
+    height: 500px; 
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-f0eff4);
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #2A28661A;
+    border: 1px solid #F0EFF4;
+    border-radius: 25px;
+    opacity: 1;
+    text-align: center;
+    
+  }
+  
+  ul {
+    margin: auto;
+    top: 644px;
+    left: 615px;
+    width: 800px;
+    height: 74px;
+    background: var(--unnamed-color-2a2866) 0% 0% no-repeat padding-box;
+    /* background: #2A2866 0% 0% no-repeat padding-box; */
+    /* border: 1px solid #2A28663D; */
+    opacity: 1;
+  }
+  
+  /* li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  } */
+  
+  /* li a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+  
+  /* li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+   
+       #components-form-demo-normal-login .login-form {
+        max-width: 400px;
+      }
+      #components-form-demo-normal-login .login-form-forgot {
+        float: right;
+      }
+      #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+        float: left;
+      }
+      #components-form-demo-normal-login .login-form-button {
+        width: 100%;
+      } */
