@@ -1,65 +1,65 @@
-import React from 'react'
-import '../css/Page51.css'
-import { Avatar } from 'antd';
-import {  DownOutlined } from '@ant-design/icons';
+import React, { useState } from 'react';
+import '../css/Page51.css';
+import { Layout, Avatar, Button, Tabs,Switch,chacked } from 'antd';
+import Title from 'antd/lib/typography/Title';
+import { Row, Col, Divider } from 'antd';
 
 
-
-
-
-
+const { Header, Footer, Sider, Content } = Layout;
+const { TabPane } = Tabs;
+// const style = { background: '#ffff', padding: '200px 0' };
 function Page51() {
-    return (
-        <div className="Background">
-            
-            <div className="h7">
-                <form>
+  const [selectedPlayer, setSelectedPlayer] = useState('');
+  const [visible, setVisible] = useState(false);
+  const onSelect = name => {
+    setSelectedPlayer(name);
+    setVisible(true);
+  }
+  const ViewProfileButton = ({ name }) => {
+    return <Button type='dashed' style={{ float: 'right' }} onClick={() => onSelect(name)}> View Full Profile  </Button>
+  }
 
-                    <div> ค้นหา</div> 
-                    <input type="text" name="search" placeholder="Search.."></input>
-                    <button class="button button2">ค้นหา</button>
-                    <button class="button button3">รีเซ็ต</button>
-                </form>
-            </div>
+  const onClose = () => setVisible(false);
+  return (
+    <div className="App">
+      <Layout>
+        < Sider className="box1">
 
-            <div className="h1">
-                {/* <div className="h6"></div>
-                <div className="h6"></div> */}
+          <ul>
+            <li><a href={"/Page16"}>แดชบอร์ด</a></li>
+            <li><a href={"/Page3"}>การประเมินผลสัมฤทธิ์</a></li>
+            <li><a href={"/Page51"}>จัดการผู้ใช้</a></li>
+            {/* <li><a href="#about">About</a></li> */}
+          </ul>
 
-                <div className="h5">
-                {/* <div>จัดการผู้ใช้</div> */}
-                    <div class="dropdown">
-                        {/* <Avatar className= "img"  src='./jimin.jpg' /> */}
-                        <button class="dropbtn">User <DownOutlined /></button>
+        </Sider>
 
-                        <div class="dropdown-content">
-                            <a href={"/"}>โปรไฟล์</a>
-                            <a href={"/"}>ออกจากระบบ</a>
+        <Layout>
 
+          <Header style={{ padding: 10 }}>
+            <Avatar style={{ float: 'right' }} src='./dp.png' />
+            <Title style={{ color: 'white' }} level={3}>จัดการผู้ใช้</Title>
 
-                        </div>
+            {/* <Tabs defaultActiveKey="1">
+          <TabPane tab="ผู้ใช้" key="1" />
+          <TabPane tab="สิทธิ์การเข้าถึง" key="2" />
+        </Tabs> */}
 
-                    </div>
+          </Header>
+         <Content style={{ padding: '0 50px' }}>
+         <div> <Row gutter={[12, 12]}>
 
+              <Col span={24}>
+
+                <div className="gutter-row1">
 
                 </div>
+              </Col>
+              <Col span={24}>
 
-
-                <div className="box1">
-                    <div> <button><a href={"/Page16"}>แดชบอร์ด</a></button></div>
-                    <div><button><a href={"/Page3"}>การประเมินผลสัมฤทธิ์</a></button></div>
-                    <div> <button><a href={"/Page51"}>จัดการผู้ใช้</a></button></div>
-
-
-                </div>
-
-            </div>
-            
-            <div className="h2">
-                <h1>รายการจัดการผู้ใช้ 
-                <button class="button button4">+เพิ่มบทบาท</button>
-                </h1>
-                <table id="customers">
+                <div className="gutter-row1">
+                <Title style={{ color: 'back' }} level={4}>รายการจัดการผู้ใช้</Title>
+               <table id="customers">
                     <tr>
                         <th>ลำดับ</th>
                         <th>ประเภท</th>
@@ -68,49 +68,62 @@ function Page51() {
                     <tr>
                         <td>1</td>
                         <td>สนามฟุตบอล</td>
-                        <td></td>
+                        <td> <Switch defaultChecked /> </td>
+                     
+                        
                     </tr>
                     <tr>
                         <td>2</td>
                         <td>สนามกอล์ฟ</td>
-                        <td></td>
+                        <td> <Switch defaultChecked /></td>
                     </tr>
                     <tr>
                         <td>3</td>
                         <td>สนามเจ็ตสกี</td>
-                        <td> </td>
+                        <td>  <Switch defaultChecked /></td>
                     </tr>
                     <tr>
                         <td>4</td>
                         <td>สนามวอลเลย์บอล</td>
-                        <td></td>
+                        <td> <Switch defaultChecked /></td>
                     </tr>
                     <tr>
                         <td>5</td>
                         <td>สนามตะกร้อ</td>
-                        <td></td>
+                        <td> <Switch defaultChecked /></td>
                     </tr>
                     <tr>
                         <td>6</td>
                         <td>เจ้าหน้าที่</td>
-                        <td></td>
+                        <td> <Switch defaultChecked /></td>
                     </tr>
                     <tr>
                         <td>7</td>
                         <td>ทุกภาคส่วน</td>
-                        <td></td>
+                        <td> <Switch defaultChecked /></td>
                     </tr>
 
                 </table>
 
 
+                </div>
+              </Col>
 
-            </div>
-        </div>
+            </Row></div>
 
 
 
-    )
+
+
+            
+
+          </Content>
+
+
+        </Layout>
+      </Layout>
+    </div>
+  );
 }
 
-export default Page51
+export default Page51;

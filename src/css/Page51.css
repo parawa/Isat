@@ -1,115 +1,27 @@
-.Background{
-    top: 0px;
-left: 0px;
-width: 2000px;
-height: 1500px;
-opacity: 1;
-background: #e8e8ec 0% 0% no-repeat padding-box;
+@import '~antd/dist/antd.css';
 
-}
-.center {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-  }
-
-.h1{
-margin: auto;
-top: 60px;
-left: 700px;
-width: 2000px;
-height: 100px;
-background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-background: #2A2866 0% 0% no-repeat padding-box;
-border-radius: 0px;
-opacity: 1;
-/* text-indent: 70px;
-  text-align: justify;
-  letter-spacing: 3px; */
-   }
-.h3{
-    float: left;
-    margin:  20px;
-    top: 50px;
-    left: 500px;
-    width: 610px;
-    height: 70px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #c2c1d8 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    opacity: 1;
+.App {
+  text-align: left;
 }
 
-.h4{
-    float: left;
-    margin:  20px;
-    top: 50px;
-    left: 500px;
-    width: 610px;
-    height: 70px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #c2c1d8 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    opacity: 1;
-    /* padding: 10px; */
+.App-logo {
+  height: 40vmin;
 }
 
-.h2{
-  font: normal normal bold 15px/70px FC Iconic;
- margin: 200px;
-top: 100px;
-left: 700px;
-width: 1330px;
-height: 900px;
-background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-border: 1px solid var(--unnamed-color-f0eff4);
-background: #ffffff 0% 0% no-repeat padding-box;
-box-shadow: 0px 3px 6px #00000029;
-border-radius: 10px;
-opacity: 1;
-
-text-indent: 7px;
-text-align: justify;
-letter-spacing: 2px;
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-.h5{
-    float: right;
-    margin:  20px;
-    top: 10px;
-    left: 500px;
-    width: 250px;
-    height: 60px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #2A2866 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    opacity: 1;
+.App-link {
+  color: #09d3ac;
 }
-
-/* .sidebar{
-    font-family: 'FCIconic';
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #00000029;
-    border-radius: 0px 20px 20px 0px;
-    opacity: 1;
-} */
-
-.h7{
-    float: left;
-    margin:  200px;
-    top: 50px;
-    left: 500px;
-    width: 1310px;
-    height: 80px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    border-radius: 10px;
-    opacity: 1;
-   }
-
-
 .box1{
   top: 0px;
   left: 0px;
@@ -120,142 +32,39 @@ letter-spacing: 2px;
   box-shadow: 0px 3px 6px #00000029;
   border-radius: 0px 20px 20px 0px;
   opacity: 1;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-.dropbtn {
-    float: left;
-    /* margin:  20px; */
-    border-radius: 10px;
-    background-color: #2A2866 ;
-     color: rgb(255, 255, 255); 
-    padding: 20px;
-    font-size: 16px;
-    border: lavenderblush;
-    cursor: pointer;
-  }
-  .dropbtn1 {
-    float: left;
-    /* margin:  ;  */
-    border-radius: 10px;
-    background-color: #f4f8f4;
-    /* color: rgb(10, 10, 10); */
-    padding: 20px;
-    font-size: 10px;
-    border: lavenderblush;
-    cursor: pointer;
-  }
   
-  .dropdown {
-    /* float: left; */
-    margin:  10px;
-    position: relative; 
-    display: inline-block;
   }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    
-    background-color: #f9f9f9;
-    min-width: 160px;
-    /* box-shadow: 0px 8px 16px 0px rgba(248, 246, 246, 0.2); */
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    /* color: black; */
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #afa9a9}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #aeb1ae;
-  }
-  ul {
-    border-radius: 10px;
-   
-    list-style-type: none;
-    margin: 0px;
-    padding: 28px;  
-    width: 80px;
-    cursor: pointer;
-    /* background-color: #ffffff; */
-  }
-  
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    float: left;
-    width: 50px;
-    border-radius: 6px;
-    background-color: #555;
-    color: white;
-  }
-
-
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 4px;
-}
-
-.button2 {background-color: #2A2866;} /* Blue */
-.button3 {background-color: #2A2866;} /* Red */ 
-.button4 {background-color: red;}
-
-#customers {
+  #customers {
  
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 
-#customers td, #customers th {
-  border: 2px solid rgb(238, 236, 236);
-  padding: 20px;
-  /* border-radius: 5px; */
-}
 
-/* #customers tr:nth-child(even){background-color: #fffdfd;}
-
-#customers tr:hover {background-color: rgb(255, 255, 255);} */
-
-#customers th {
-  padding-top: 15px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #ffffff;
-  color:black;
-}
+  }
+  
+  #customers td, #customers th {
+    border: 2px solid rgb(233, 233, 233);
+    padding: 20px;
+    /* border-radius: 5px; */
+  }
+  
+  /* #customers tr:nth-child(even){background-color: #fffdfd;}
+  
+  #customers tr:hover {background-color: rgb(255, 255, 255);} */
+  
+  #customers th {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    text-align: left;
+    /* background-color: #ffffff; */
+    color:black;
+  }
+  
+  .gutter-row1 {
+    /* margin: 25px; */
+    padding: 60px 0px;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+ 
